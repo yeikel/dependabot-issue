@@ -204,7 +204,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-release-plugin</artifactId>
-          <version>2.5.3</version>
+          <version>3.1.1</version>
         </plugin>
         <!-- disable TestNG's HTML reports to speed up the build -->
         <plugin>
