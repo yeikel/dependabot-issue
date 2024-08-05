@@ -44,21 +44,7 @@
       </modules>
     </profile>
 
-    <profile>
-      <id>customBuild</id>
-      <activation>
-        <property>
-          <name>profile</name>
-          <value>customBuild</value>
-        </property>
-      </activation>
-      <modules>
-        <module>${modulesToBuild}</module>
-      </modules>
-    </profile>
-  </profiles>
-
-
+  
   <build>
     <defaultGoal>compile</defaultGoal>
     <finalName>${project.artifactId}-${project.version}</finalName>
